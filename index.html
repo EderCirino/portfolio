@@ -3,27 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
-  rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Eder Santos Cirino | Portfólio</title>
 </head>
 <body>
 <!-- ####################################################################### -->
   <nav>
-    <ul id="topMenu">
-      <li>Logo</li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#whoami">Who am I?</a></li>
-      <li><a href="#projects">Portflio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="mobileMenu">
+      <label for="toggle">&#9776</label>
+      <input type="checkbox" id="toggle">
+      
+      <ul class="topMenu">
+        <li>Logo</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#whoami">Who am I?</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+    </div>
   </nav>
 <!-- ####################################################################### -->
 <div class="section1">
   <div class="centralize">
     <h1>Eder Santos Cirino</h1>
-    <h3 style="color: white;">Web Developer | Mobile Developer</h3>
+    <h3 style="color: #323330;">Web Developer | Mobile Developer</h3>
   </div>
 </div>
 
@@ -38,8 +42,8 @@
     language. Trying to keep update, Eder is studing mobile development using
     React Native framework where it's possible to develope to both
     platforms(Android/iOS).
-    Feel free to get in touch with Eder through the contact section, asking anything about programming, career,
-    networking.   
+    Feel free to get in touch with Eder through the contact section,
+    asking anything about programming, career, networking.   
   </p>
 
   <img id="whoamiImg" src="./img/whoami.jpg" alt="eder santos cirino">
@@ -82,9 +86,9 @@
             </li>
             <li>Conclusion:
               <ul>
-                <li class="conclusion">There was applied Bootstrap 4.5 to practice this framework
-                  and it realizes that Bootstrap it's a very nice CSS Framework
-                  to work with it.
+                <li class="conclusion">There was applied Bootstrap 4.5 to
+                  practice this framework and it realizes that Bootstrap it's
+                  a very nice CSS Framework to work with it.
                   About the javascript, All the data typed in the app was
                   storaged in the LocalStorage(something like a database,
                   but in the browser) And it was necessary to work with arrays,
@@ -94,7 +98,8 @@
               </ul>
             </li>
             <li>Source code on 
-              <a href="https://github.com/edercirino/inviteguesto">Github</a>
+              <a target="_blank"
+              href="https://github.com/edercirino/inviteguesto">Github</a>
             </li>
           </ul>
       </td>
@@ -111,8 +116,8 @@
             <hr>
             <li>Description:
               <ul>
-                <li>A website made to tell a little bit of Eder and show the
-                  projects developed by him.</li>
+                <li>This website you are acessing was made to tell a little bit
+                  of Eder and show the projects developed by him.</li>
               </ul>
             </li>
             <li>Developed with: 
@@ -123,17 +128,22 @@
             </li>
             <li>Conclusion:
               <ul>
-                <li></li>
+                <li class="conclusion">Every developer needs to show his work
+                  and projects and another way to show it is developing a
+                  website without any framework or libraries.
+                </li>
               </ul>
             </li>
             <li>Source code on 
-              <a href="https://github.com/edercirino/portfolio">Github</a>
+              <a target="_blank"
+              href="https://github.com/edercirino/portfolio">Github</a>
             </li>
           </ul>
       </td>
 
       <td style="width: 40%;">
-        <img class="projectImage" src="./img/portfoliowebsite.png" alt="portfolio web site">
+        <img class="projectImage"
+        src="./img/portfoliowebsite.png" alt="portfolio web site">
       </td>
     </tr>
   </table>
@@ -145,7 +155,8 @@
     <tr>
       <td style="width: 50%;">Email: eder@edersantoscirino.com.br</td>
       <td style="width: 50%;">
-        Social Media: <a target="_blank" href="https://www.linkedin.com/in/edercirino/">Linkedin</a>
+        Social Media: <a target="_blank"
+        href="https://www.linkedin.com/in/edercirino/">Linkedin</a>
       </td>
     </tr>
   </table>
@@ -155,5 +166,8 @@
   <h5 class="centralize">By: Eder Santos Cirino - 2020</h5>
 </footer>
 <!-- ####################################################################### -->
+<script>
+  
+</script>
 </body>
 </html>
