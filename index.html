@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#">
   <link rel="stylesheet" href="./style.css">
   <title>Eder Santos Cirino | Portfólio</title>
 </head>
@@ -14,11 +15,11 @@
       <input type="checkbox" id="toggle">
       
       <ul class="topMenu">
-        <li>Logo</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#whoami">Who am I?</a></li>
-        <li><a href="#projects">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li></li>
+        <li onclick="collapseMenu();"><a href="#">Home</a></li>
+        <li onclick="collapseMenu();"><a href="#whoami">Who am I?</a></li>
+        <li onclick="collapseMenu();"><a href="#projects">Portfolio</a></li>
+        <li onclick="collapseMenu();"><a href="#contact">Contact</a></li>
       </ul>
       
     </div>
@@ -68,7 +69,7 @@
 
       <td style="width: 60%;text-align: left;">
           <ul>
-            InviteGuest Web App
+            <strong>InviteGuest Web App</strong>
             <hr>
             <li>Description:
               <ul>
@@ -99,20 +100,20 @@
             </li>
             <li>Source code on 
               <a target="_blank"
-              href="https://github.com/edercirino/inviteguesto">Github</a>
+              href="https://github.com/edercirino/inviteguest">Github</a>
             </li>
           </ul>
       </td>
     </tr>
   </table>
 </div>
-
+<!-- ---------------------------------------------------------------------- -->
 <div class="section3">
   <table class="centralize">
     <tr>
       <td style="width: 60%;text-align: left;">
           <ul>
-            Eder's Portfolio website
+            <strong>Eder's Portfolio website</strong>
             <hr>
             <li>Description:
               <ul>
@@ -148,7 +149,6 @@
     </tr>
   </table>
 </div>
-
 <div id="contact" class="centralize">
   <h2>You can talk to Eder through:</h2>
   <table class="centralize">
@@ -167,6 +167,13 @@
 </footer>
 <!-- ####################################################################### -->
 <script>
+  const toggle = document.getElementById("toggle")
+
+  const collapseMenu = () => {
+    toggle.checked = false
+  }
+
+  // const limitScreen = window.matchMedia("(max-width: 500px)")
   
 </script>
 </body>

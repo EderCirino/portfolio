@@ -7,8 +7,8 @@ html, body {
 nav {
   border-bottom: 1px solid #EAEAEB;
   text-align: right;
-  height: 70px;
-  line-height: 70px;
+  height: 50px;
+  line-height: 50px;
   background-color: #323330;
   color: white;
   width: 100%;
@@ -18,7 +18,7 @@ nav {
 label {
   margin: 0 40px 0 0;
   font-size: 26px;
-  line-height: 70px;
+  line-height: 50px;
   display: none;
 }
 
@@ -74,13 +74,13 @@ a:hover {
 
 .section2 {
   display: flex;
-  height: 33vh;
+  height: 60vh;
   background-color: white;
 }
 
 .section3 {
   display: flex;
-  height: 33vh;
+  height: 60vh;
   background-color: #e5e6ea;
 }
 
@@ -90,7 +90,7 @@ a:hover {
 }
 
 #projects {
-padding: 5vh 0 0 0;
+padding: 10vh 5vh 0 5vh;
 }
 
 .projectImage {
@@ -101,7 +101,7 @@ padding: 5vh 0 0 0;
 
 #whoami {
   height: 50vh;
-  padding:12vw 25vw 12vw 25vw;
+  padding:8vw 25vw 12vw 25vw;
   letter-spacing: 0.1rem;
 }
 
@@ -128,6 +128,9 @@ footer {
 
 /* -----------MOBILE FIRST----------- */
 @media only screen and (max-width: 500px) {
+  html, body{
+    margin: 0;
+  }
 
   label {
     display: block;
@@ -150,4 +153,18 @@ footer {
     display: block;
   }
 
+  #whoami {
+    padding: 10vh 4vh 40vh 4vh;
+    text-justify: auto;
+  }
+
+  #projects {
+    padding: 8vh 4vh 4vh 10vh ;
+  }
+
+  .projectImage {
+    width: 40vh;
+    height: 40vh;
+    margin: auto;
+  }
 }
