@@ -74,14 +74,34 @@ a:hover {
 
 .section2 {
   display: flex;
-  height: 60vh;
+  height: 40vh;
   background-color: white;
 }
+
+#projects {
+  padding: 10vh 5vh 0 5vh;
+  }
+
+  .projectImage {
+    width: 15vw;
+    height: 15vw;
+    padding-left: 15vw;
+    padding-top: 5vh;
+  
+  }
+  
+  .projectDescription {
+    padding: 0 0 0 15vw;
+    width: 40vw;
+    
+  }
 
 .section3 {
   display: flex;
   height: 60vh;
+  margin-top: 15vh;
   background-color: #e5e6ea;
+  
 }
 
 .centralize {
@@ -89,14 +109,9 @@ a:hover {
   text-align: center;
 }
 
-#projects {
-padding: 10vh 5vh 0 5vh;
-}
-
-.projectImage {
-  width: 15vw;
-  height: 15vw;
-  padding-left: 15px;
+td {
+  width: 50%;
+  text-align: left;
 }
 
 #whoami {
@@ -116,8 +131,15 @@ padding: 10vh 5vh 0 5vh;
   padding: 18vw 25vw 0 25vw;
 }
 
-.conclusion {
-  width: 50vw;
+.contactEmail {
+  float: left;
+  padding-left: 10vw;
+}
+
+.contactSocialMedia {
+  float: left;
+  padding-left: 8vw;
+
 }
 
 footer {
@@ -129,7 +151,7 @@ footer {
 /* -----------MOBILE FIRST----------- */
 @media only screen and (max-width: 500px) {
   html, body{
-    margin: 0;
+    margin: auto;
   }
 
   label {
@@ -165,6 +187,21 @@ footer {
   .projectImage {
     width: 40vh;
     height: 40vh;
-    margin: auto;
+    padding-left: 5vw;
   }
+
+  .tdImage {
+    padding: 0 50px 0 50px;
+
+  }
+
+  .tdProjectTextContent {
+    position: absolute;
+    padding: 40vh 0 0 0;
+  }
+
+  .section3 {
+    
+  }
+
 }
