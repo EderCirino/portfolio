@@ -158,7 +158,6 @@ footer {
   color: white;
 }
 
-/* -----------MOBILE FIRST----------- */
 @media only screen and (max-width: 500px) {
   html, body{
     width: 100%;
@@ -203,10 +202,9 @@ footer {
   }
 
    #projects {
-    display: none;
+    display: block;
     margin: auto;
     height: 30vh;
-    padding: 25vh 4vh 0 10vh;
   }
 
   .projectImage {
