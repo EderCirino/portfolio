@@ -206,7 +206,8 @@ footer {
     display: block;
     margin: auto;
     height: 30vh;
-    padding: 25vh 4vh 0 10vh ;
+    padding: 25vh 4vh 0 10vh;
+    background-color: black;
   }
 
   .projectImage {
