@@ -203,7 +203,8 @@ footer {
   }
 
    #projects {
-    padding: 25vh 4vh 8vh 10vh ;
+     display: block;
+    padding: 25vh 4vh 6vh 10vh ;
   }
 
   .projectImage {
