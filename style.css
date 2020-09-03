@@ -88,8 +88,7 @@ a:hover {
 
 #projects {
   margin: auto;
-  height: 30vh; 
-  padding: 15vh 5vh 0 5vh;
+  padding: 25vh 5vh 10vh 5vh;
   }
 
   .projectImage {
@@ -143,7 +142,7 @@ td {
 
 .contactEmail {
   float: left;
-  padding-left: 7vw;
+  padding-left: 5vw;
 }
 
 .contactSocialMedia {
