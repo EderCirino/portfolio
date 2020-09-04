@@ -225,4 +225,14 @@ footer {
     
   }
 
+  .contactEmail {
+    margin: auto;
+    padding: 0 0 0 0;
+  }
+
+  .contactSocialMedia {
+    margin: auto;
+    
+  }
+
 }
